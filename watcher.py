@@ -21,7 +21,7 @@ class SpecificationsEventHandler(FileSystemEventHandler):
 	#def on_moved(self, event):
 	#	super(FireSpecificationsEventHandler, self).on_moved(event)
    
-    # on_created event not needed for watching files...
+        # on_created event not needed for watching files...
 	#def on_created(self, event):
 	#	super(SpecificationsEventHandler, self).on_created(event)
 	#	what = 'directory' if event.is_directory else 'file'
